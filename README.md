@@ -1,2 +1,2 @@
 # unicorn
-字节青训营项目-unicorn低代码平台
+字节青训营项目-unicornd独角兽低代码平台
