@@ -1,0 +1,98 @@
+ /* 放大 */
+ 
+ .animation1 {
+     animation: animation1 1s ease-in-out infinite;
+ }
+ /* 缩小 */
+ 
+ .animation2 {
+     animation: animation2 1s ease-in-out infinite;
+ }
+ /* 左右摆动 */
+ 
+ .animation3 {
+     animation: animation3 1s ease-in-out infinite;
+ }
+ /* 上下移动 */
+ 
+ .animation4 {
+     animation: animation4 1s ease infinite;
+ }
+ /* 左右移动 */
+ 
+ .animation5 {
+     animation: animation5 1s ease infinite;
+ }
+ /* 不断放大 */
+ 
+ @keyframes animation1 {
+     0% {}
+     50% {
+         transform: scale(1.5);
+     }
+     100% {
+         transform: scale(1);
+     }
+ }
+ /* 不断缩小 */
+ 
+ @keyframes animation2 {
+     0% {}
+     50% {
+         transform: scale(0.5);
+     }
+     100% {
+         transform: scale(1);
+     }
+ }
+ /* 左右摆动 */
+ 
+ @keyframes animation3 {
+     0% {}
+     25% {
+         transform: rotate(25deg);
+     }
+     50% {
+         transform: rotate(0deg);
+     }
+     75% {
+         transform: rotate(-25deg);
+     }
+     100% {
+         transform: rotate(0deg);
+     }
+ }
+ /* 上下移动 */
+ 
+ @keyframes animation4 {
+     0% {}
+     25% {
+         transform: translateY(20px);
+     }
+     50% {
+         transform: translateY(0px);
+     }
+     75% {
+         transform: translateY(-20px);
+     }
+     100% {
+         transform: translateY(0px);
+     }
+ }
+ /* 左右移动 */
+ 
+ @keyframes animation5 {
+     0% {}
+     25% {
+         transform: translateX(20px);
+     }
+     50% {
+         transform: translateX(0px);
+     }
+     75% {
+         transform: translateX(-20px);
+     }
+     100% {
+         transform: translateX(0px);
+     }
+ }
